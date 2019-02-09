@@ -43,8 +43,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="OutParameter.cs" />
+    <Compile Include="ParamsKeyword.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="staticVSinstance.cs" />
+    <Compile Include="valueVSreference.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
